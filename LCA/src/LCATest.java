@@ -1,0 +1,13 @@
+import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+
+class LCATest {
+
+	@Test
+	void test() {
+		LCA test = new LCA();
+		int output = test.findLCA(2,3);
+		assertEquals(2, 3);
+	}
+}
